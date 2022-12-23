@@ -31,7 +31,7 @@ These offsets are then subtracted from the raw x and y magnetometer data, thus l
 After hard-iron calibration, the origin of the ellipse is at (0, 0), and is exhibiting a rotation of θ degrees from the X axis.
 <img src="analysis/Graphs/SIC.png" width=1500px>
 ```
-r = \sqrt{X1^2 + Y1^2}
+r = sqrt{X1^2 + Y1^2}
 θ = arcsin(Y 1/r)
                     
 R = [ cosθ sinθ]      
